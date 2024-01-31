@@ -20,7 +20,7 @@ concurrency:
 jobs:
   test_android:
     name: Test builds
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     timeout-minutes: 90
     strategy:
       fail-fast: false
